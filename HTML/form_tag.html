@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+   <form method="get" action="">
+    <table border="1" cellspacing="10" cellpadding="10" width="100%">
+        <tr >
+            <th colspan="2">
+                Registration Form
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="name">Student Name</label>
+            </td>
+            <td>
+                <input type="text" name="name" id="name" autocomplete="first-name">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="fname">Father's Name</label>
+            </td>
+            <td>
+                <input type="text" name="fname" id="fname" autocomplete="family-name">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="mname">Mother's Name</label></td>
+            <td><input type="text" name="mname" id="mname"></td>
+        </tr>
+
+         <tr>
+            <td>
+            <label for="dob">Date of birth</label>
+        </td>
+        <td>
+            <input type="date" name="dob" id="dob">
+        </td>
+
+        <tr>
+            <td>
+                <label for="gender">Gender</label>
+            </td>
+            <td>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </td>
+        </tr>
+        
+
+            <tr>
+                <td>
+                <label for="email">Email ID</label>
+            </td>
+                <td>
+                    <input type="email" id="email" name="email" autocomplete="off">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <label for="mobileno">Mobile No</label>
+            </td>
+                <td>
+                    <input type="tel" id="mobileno" name="mobileno">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Address">Address</label>
+                </td>
+                <td>
+                    <textarea id="Address" name="Address" autocomplete="address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <label for="state">State</label>
+            </td>
+                <td>
+                    <input type="text" id="state" name=""state>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                    <td>
+                        <input type="text" id="city" name="city">
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable>
+                        Favourite Sports
+                    </lable>
+                </td>
+          
+                <td>
+                    <input type="checkbox" id="sports1" name="sports1" value="cricket">
+                    <lable for="sports1" >Cricket</lable>
+                    <input type="checkbox" id="sports2" name="sports2" value="Kabaddi">
+                    <lable for="sports2" >Kabaddi</lable>
+                    <input type="checkbox" id="sports3" name="sports3" value="Football">
+                    <lable for="sports3">Football</lable>
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        
+    </table>
+    </form>
+</body>
+</html>

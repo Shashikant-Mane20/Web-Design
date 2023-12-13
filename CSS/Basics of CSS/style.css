@@ -1,0 +1,59 @@
+/* External CSS
+h1{
+    background-color:orange;
+    color:rgb(56, 118, 78);
+    
+}
+p{
+    color:red;
+    background-color:yellow;
+
+} */
+
+/* Element Selector or Tag selector */
+h1{
+    color:rgb(0, 0, 128);
+    background-color:#DE3163;
+   
+   
+}
+body{
+    margin:0;
+    display:flex;
+}
+
+
+/* ID selector */
+#first{
+    color:#800000;
+    background-color:beige;
+}
+
+/* class selector */
+.wrapper{
+    color:#DE3163;
+    background-color:orange;
+   
+    
+}
+/* universal selector */
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* pseudo classes or selector */
+.list:hover{
+    
+    background-color:#DE3163;
+}
+
+ li:first-child:hover {
+    background-color: blue;
+}
+
+li:last-child:hover {
+    background-color: blue;
+} 
+li:nth-child(odd) {
+    background-color: #f2f2f2;
+}
