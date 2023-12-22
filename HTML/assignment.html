@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Order Form</title>
+        <style>
+            h1{
+                text-align:center
+            }
+            button{
+                font-weight:400;
+                padding:5px 5px;
+                color:white;
+                background-color:rgb(46, 208, 46);
+                border:none;
+            }
+
+            button:hover{
+                color:black;
+                background-color: rgb(93, 193, 93);
+            }
+
+          body{
+            display:flex;
+            background-color:rgb(203, 216, 220);
+          }
+
+            th, td {
+            border: 1px solid;
+            padding: 10px;
+            text-align: left;
+        }
+        th{
+            background-color: gray;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, select {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            color:rgb(237, 237, 243);
+            
+        }
+        </style>
+    </head>
+    <body>
+       <div id="order-form">
+        <h1>Land of boxes</h1>
+        <form action="" method="get">
+    
+            
+                        <lable for="name">Name:</lable>
+                   
+                        <input type="text" id="name" name="name"> <br>
+                 
+                        <lable for="address">Address:</lable>
+                   
+                        <input type="text" id="address" name="address"> <br>
+                   
+                        <lable for="Telephone">Telephone No:</lable>
+                   
+                        <input type="tel" id="Telephone" name="Telephone"> <br>
+                    
+                        <lable for="email">Email:</lable>
+                       
+                        <input type="email" id="email" name="email"> <br>
+
+                <table>
+                    <th>Product Number</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Econo Box</td>
+                    <td>R5</td>
+                    <td>
+                        <input type="number" name="EconoBox" value="0" min="0" name="Econo Box">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Standard Box</td>
+                    <td>R10</td>
+                    <td>
+                        <input type="number" name="Standard Box" value="0" min="0" name="Standard Box">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Premium Box</td>
+                    <td>R15</td>
+                    <td>
+                        <input type="number" name="Premium Box" value="0" min="0" name="Premium Box">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Delux Box</td>
+                    <td>R20</td>
+                    <td>
+                        <input type="number" name="Delux Box" value="0" min="0" name="Delux Box">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>Super Delux Box</td>
+                    <td>R30</td>
+                    <td>
+                        <input type="number" name="Super Delux Box" value="0" min="0">
+                    </td>
+                </tr>
+                   </table>
+
+                    <tr>
+                        <td><label for="card">Credit Card Type:</label></td>
+                        <td><select name="card" id="card">
+                            <option value="Visa">Visa</option>
+                            <option value="Master Card">Master Card</option>
+                            <option value="American Express">American Express</option>
+                        </select></td>
+                    </tr>
+           
+                <label for="CardNo">Card Number:</label>
+            
+                <input type="number" name="CardNo" id="CardNo">
+           
+                <label for="expdate">Expiry Date:</label>
+           
+                <input type="date" id="expdate" name="expdate">
+           
+              
+                    <label for="BillAdd">Billing Address:</label>
+               
+                    <input type="text" name="BillAdd" id="BillAdd">
+                
+
+         
+                <label for="DelAdd">Delivery Address:</label>
+            
+                <input type="text" name="DelAdd" id="DelAdd">
+          
+                <button type="button">
+                   Place Order
+                </button>
+         
+           
+        </form>
+       </div>
+    </body>
+</html> 
+
