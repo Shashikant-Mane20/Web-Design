@@ -1,8 +1,21 @@
 var a=6;
-var fact=0;
-for (var i=0;i<=a,i++;)
+
+var fact=1;
+
+for(var i=1;i<=a;i++)
 {
-    fact=fact+i;
+fact=fact*i;
 
 }
-document.write(fact)
+console.log(fact);
+
+// var i, fact;
+// var no=5;
+// fact=1;
+
+// for(i=1; i<=no; i++)  
+// {
+// fact= fact*i;
+// }  
+
+// console.log(fact);

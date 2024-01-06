@@ -5,13 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gradient</title>
     <style>
+       /* linearGradient
         body{
-            background:linear-gradient(red,yellow);
+            background:linear-gradient(90deg,red,yellow);
+            background:linear-gradient(to left,red,yellow);
             background-repeat:no-repeat;
-            /* background-attachment: scroll;  */
+            background-attachment: scroll; 
+            background-attachment: fixed;
+        } */
+
+        /* radialGradient */
+        /* body{
+            background:radial-gradient(50% 50%,red,yellow,green);
+            background-attachment:fixed;
+
+        } */
+
+        /* conic */
+/* 
+        body{
+            background:conic-gradient(red,yellow,green, blue);
+            background-attachment: fixed;
+        } */
+
+        body{
+            background: rgb(34,193,195);
+            background: linear-gradient(156deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
             background-attachment: fixed;
         }
     </style>
+
+    <!-- use gradient generator dont need memoerise everything -->
 </head>
 <body>
     <div>
@@ -22,7 +46,7 @@
             conic gradient
         </pre>
     </div>
-    <div>
+    <!-- <div>
         <pre>
             <h2>Combination of more than colour</h2>
             linear Gradient
@@ -46,6 +70,6 @@
             conic gradient
         </pre>
     </div>
-   
+    -->
 </body>
 </html>
