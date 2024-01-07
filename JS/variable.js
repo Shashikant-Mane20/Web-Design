@@ -87,7 +87,12 @@
 // let firstName="Mohit" 
 // console.log(firstName);
 
-let firstName="Shashikant";
+// let firstName="Shashikant";
 
-firstName="Mohit"
-console.log(firstName);
+// firstName="Mohit"
+// console.log(firstName);
+
+const pi=3.14;
+console.log(pi)
+pi=3.15;
+
