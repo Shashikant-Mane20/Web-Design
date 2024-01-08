@@ -1,21 +1,18 @@
-var a=6;
+// var a=7;
 
-var fact=1;
+// var fact=1;
 
-for(var i=1;i<=a;i++)
-{
-fact=fact*i;
-
-}
-console.log(fact);
-
-// var i, fact;
-// var no=5;
-// fact=1;
-
-// for(i=1; i<=no; i++)  
+// for(var i=1;i<=a;i++)
 // {
-// fact= fact*i;
-// }  
+// fact=fact*i;
 
+// }
 // console.log(fact);
+
+
+age=25;
+
+if(age>16){
+    document.write("You can play PS5")
+}
+
