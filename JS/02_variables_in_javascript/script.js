@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 console.log(myName) //===> It will give me undefined 
 
 //console.log(firstName) //====> It will give me error cannot access
@@ -38,6 +38,8 @@ myName='Yash'
 var surname='Mane'
 
 console.log('My name is '+myName+' '+surname);
+
+let $country= 'India'
 
 //let var diff
 //let const diff
