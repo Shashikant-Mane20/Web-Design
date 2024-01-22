@@ -43,3 +43,7 @@ let $country= 'India'
 
 //let var diff
 //let const diff
+
+let name="Shashikant"
+
+name="YAsh";

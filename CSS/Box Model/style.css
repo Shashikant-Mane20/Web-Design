@@ -37,3 +37,20 @@ img{
    margin-top:-24px;
    
 }
+
+.circle{
+    background-color: brown;
+    height:500px;
+    width:500px;
+    border-radius: 50%;
+    
+    overflow:hidden;
+}
+
+h1{
+    width:100%;
+
+   margin-top:239px;
+   margin-left:174px;
+    
+}
