@@ -32,6 +32,23 @@ const lastFourDigits = '7856'
 console.log('MaskedAccountNumber',lastFourDigits.padStart(16,'*'));
 console.log(lastFourDigits.padStart(8,'.'));
 
+console.log(message.charAt(4))
+
+//ASCII Code
+console.log(message.charCodeAt(3))
+
+console.log(message.split(' '))
+const fullName= 'ShaShikant$mane'
+console.log(fullName.split('$'))
 
 // const number = 100+''
 // console.log(number)
+
+//Template string
+const concatenatedString =`Last four digit of my account number is`.concat(' ',lastFourDigits)
+const templateString =`My account number is ${lastFourDigits.padStart(16,"*")}.`
+
+const bankBalance = 987
+const templateString2 = `I have $${bankBalance} in my account.`
+
+const addedString= `I have $`+bankBalance+` in my account`
